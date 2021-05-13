@@ -1,0 +1,106 @@
+@font-face {
+	font-family: 'StarWars';
+	src: url('DISTGRG_.ttf')
+}
+body {
+	background-image: url("img/background3.jpg");
+	background-repeat:no-repeat;
+	background-position :unset;
+	background-color: white;
+	background-size: auto;
+	min-width: auto;
+
+}
+header {
+	display: flex;
+	border: 2px solid black;
+	border-radius: 20px;
+	box-shadow: 6px 6px 6px black;
+	background-color: rgb(155, 218, 73);
+	justify-content: space-around;
+	margin-left: 15%;
+	margin-right: 10%;
+	padding: 5px;
+	overflow: auto;
+}
+ h1 {
+	font-family: 'StarWars', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: rgb(99, 85, 187);
+	font-size: 60px;
+	padding-top: 2%;
+
+}
+ nav {
+	display :flex;
+	align-self: flex-left;
+	font-size: 20px;
+ }
+ nav li {
+	 list-style-type: none;
+ }
+ h2 {
+	font-family: 'StarWars', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 30px;
+	color: purple;
+	text-align: center;
+}
+ article {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-align: justify;
+	min-width:auto;
+	max-width: 700px;
+}
+ aside {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	border-radius: 15px;
+	box-shadow: 6px 6px 6px rgb(180, 0, 30);
+	max-height: 275px;
+	text-align: left;
+	overflow: auto;
+	background-color: rgb(255,255,255,0.5);
+	margin-left: 1%;
+}
+ em {
+	text-decoration: underline;
+}
+strong {
+	color:rgb(180, 0, 30)
+}
+#first {
+	display:flex;
+	flex-direction: row;
+	border-radius: 15px;
+	box-shadow: 6px 6px 6px purple;
+	max-height: 500px;
+	padding-left: 2%;
+	padding-right: 2%;
+	overflow: auto;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 40%;
+	margin-right: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	overflow:auto;
+}
+#second {
+	display:flex;
+	flex-direction: row;
+	border-radius: 15px;
+	box-shadow: 6px 6px 6px purple;
+	max-height: 400px;
+	padding-left: 2%;
+	padding-right: 2%;
+	overflow: auto;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 30%;
+	margin-right: 5%;
+	overflow:auto;
+}
+footer {
+	margin-left: 5%;
+	font-family: sans-serif;
+}
+
+
